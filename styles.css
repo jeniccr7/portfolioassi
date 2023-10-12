@@ -1,0 +1,233 @@
+* {
+    background-color: #2F1893;
+    font-family: 'DM Sans';
+}
+
+/* Style for the navbar */
+ul.navbar {
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 40px;
+    padding: 0;
+    text-align: center;
+    color: white;
+    word-spacing: 12.5px;
+}
+
+ul.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+}
+
+ul.navbar li:first-child {
+    text-align: left;
+    padding-right: 450px;
+    font-size: 22.5px;
+    font-weight: normal;
+    word-spacing: normal;
+}
+
+ul.navbar li:nth-child(2) {
+    opacity: 0.3;
+    font-size: 15px;
+}
+
+ul.navbar .purchase-container {
+    display: inline-block;
+}
+
+ul.navbar .purchase-container a {
+    background-color: #E93A7D;
+    padding: 4px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+ul.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0; /* Remove top margin */
+}
+
+.container p {
+    margin: 0;
+}
+
+.container p:first-child {
+    display: inline-block;
+    padding-left: 225px;
+    text-align: left;
+    line-height: 70px;
+    font-weight: 700;
+    font-size: 50px;
+    max-width: 450px;
+    margin-top: 0; /* Remove top margin */
+}
+
+.p-tag {
+    display: inline-block;
+    padding-left: 225px;
+    text-align: left;
+    max-width: 450px;
+    font-size: 22px;
+    margin: 0;
+    padding-top: 20px; /* Remove top padding */
+}
+
+.p-container {
+    display: inline-block;
+    text-align: left;
+    padding-right: 350px;
+    max-width: 450px;
+    margin: 0;
+}
+
+.p-container a {
+    background-color: #E93A7D;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.form-container * {
+    background-color: white;
+    padding: 10px 40px; 
+    border-radius: 4px;
+}
+.form-container{
+    display: inline-block;
+    padding: 40px;
+    float: right;
+    margin-right: 215px;
+    height: 150px;
+    margin-top: -25px;
+    
+}
+.card-title {
+    text-align: center;
+    color: #1E0E62;
+    font-size: 32px;
+    padding-top: 25px;
+    margin: 0%;
+}
+.form-control{
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid lightgrey;
+    padding-right: 100px;
+}
+::placeholder {
+    color: gray;
+    text-align: left;
+  }
+  label {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+label:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left: 0;
+    display: block;
+    height: 20px;
+    width: 20px;
+    background-color: #50CDBE;
+    border-radius: 3px;
+}
+
+label:hover:before {
+    background-color: #1AE6E6;
+}
+
+label:after {
+    content: '✔'; /* Add a checkmark character */
+    position: absolute;
+    left: 5px; /* Adjust the left position for the checkmark */
+    top: -px; /* Adjust the top position for the checkmark */
+    font-size: 14px; /* Adjust the font size for the checkmark */
+    opacity: 0;
+}
+
+input:checked + label:after {
+    opacity: 1;
+}
+
+.form-container input[type="checkbox"] {
+    display: none;
+}
+ 
+  
+  /* CSS for drawing lines before and after "Or" text */
+  .hr-lines{
+    position: relative;
+    text-align: center;
+    padding-right: 70px;
+    color: lightgray;
+    font-size: 20px;
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 120px;
+    background:lightgray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    padding-right: 11px;
+    /* left: 0; */
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 120px;
+    background:lightgray;
+    /* display: block; */
+    position: absolute;
+    top: 50%;
+    padding-right: 7px;
+  }
+  
+ 
+  .btn-1{
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    background-color: #2F1893;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 120px;
+    border: 1px solid gray;
+  }
+ .btn-2{
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 0px;
+    background-color:#1DA1F2;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 92px;
+    border: 1px solid gray;
+ }
+
+ .form-container a {
+    color: #25DAC5;
+    text-decoration: none; 
+ }
